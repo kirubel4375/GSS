@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/gss_logo.jpg" rel="icon">
+  <link href="assets/img/gss_logo.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -119,10 +119,8 @@
             <div class="portfolio-info" id="portfolio-info" >
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
                 <li><strong>Client</strong>: ASU Company</li>
                 <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
               </ul>
             </div>
             <div class="portfolio-description" id="portfolio-description">
@@ -219,10 +217,8 @@
     // Display item details  
       var itemDetailsHtml = `
         <div>
-          <p><strong>Name:</strong> ${itemDetails.name}</p>
-          <p><strong>projectDate:</strong> ${itemDetails.projectDate}</p>
-          <p><strong>category:</strong> ${itemDetails.category}</p>
-          <p><strong>clientLink:</strong> ${itemDetails.clientLink}</p>
+          <p><strong>Location:</strong> ${itemDetails.name}</p>
+          <p><strong>Project Date:</strong> ${itemDetails.projectDate}</p>
         </div>
       `;
       // var swiperImage = `<div class="swiper-slide">
@@ -241,7 +237,6 @@
       `;
     document.getElementById('portfolio-info').innerHTML = itemDetailsHtml;
     document.getElementById('swiperId').innerHTML = swiperImage;
-    document.getElementById('portfolio-description').innerHTML = pDescription;
 
   </script>
 

@@ -1263,7 +1263,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .contact-form button[type="submit"] {
   background: #cc1616;
   border: 0;
   padding: 10px 24px;
